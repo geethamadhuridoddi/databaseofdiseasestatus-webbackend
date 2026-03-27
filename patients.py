@@ -1,0 +1,47 @@
+patients_data = [
+
+    {"name": "Arjun Reddy", "age": 45, "gender": "Male", "phone_number": "9876543210", "address": "Hyderabad, Telangana", "status": "active", "assigned_doctor": "Dr. Geetha"},
+    {"name": "Sravani Devi", "age": 38, "gender": "Female", "phone_number": "9123456780", "address": "Vijayawada, Andhra Pradesh", "status": "recovering", "assigned_doctor": "Dr. Ramesh"},
+    {"name": "Vikram Teja", "age": 50, "gender": "Male", "phone_number": "9012345678", "address": "Warangal, Telangana", "status": "critical", "assigned_doctor": "Dr. Kavitha"},
+    {"name": "Lakshmi Prasanna", "age": 29, "gender": "Female", "phone_number": "9988776655", "address": "Guntur, Andhra Pradesh", "status": "recovered", "assigned_doctor": "Dr. Srinivas"},
+    {"name": "Sai Kiran", "age": 34, "gender": "Male", "phone_number": "9876501234", "address": "Nizamabad, Telangana", "status": "active", "assigned_doctor": "Dr. Ramesh"},
+    {"name": "Deepika Rani", "age": 41, "gender": "Female", "phone_number": "9345678123", "address": "Karimnagar, Telangana", "status": "recovering", "assigned_doctor": "Dr. Geetha"},
+    {"name": "Praneeth Kumar", "age": 27, "gender": "Male", "phone_number": "9234567810", "address": "Tirupati, Andhra Pradesh", "status": "active", "assigned_doctor": "Dr. Kavitha"},
+    {"name": "Anusha Priya", "age": 36, "gender": "Female", "phone_number": "9789012345", "address": "Kurnool, Andhra Pradesh", "status": "critical", "assigned_doctor": "Dr. Srinivas"},
+    {"name": "Rahul Chandra", "age": 48, "gender": "Male", "phone_number": "9090909090", "address": "Khammam, Telangana", "status": "recovered", "assigned_doctor": "Dr. Geetha"},
+    {"name": "Harika Devi", "age": 32, "gender": "Female", "phone_number": "9898989898", "address": "Rajahmundry, Andhra Pradesh", "status": "active", "assigned_doctor": "Dr. Ramesh"},
+
+    {"name": "Naveen Raju", "age": 39, "gender": "Male", "phone_number": "9000011111", "address": "Adilabad, Telangana", "status": "recovering", "assigned_doctor": "Dr. Kavitha"},
+    {"name": "Bhavya Sri", "age": 26, "gender": "Female", "phone_number": "9000022222", "address": "Eluru, Andhra Pradesh", "status": "active", "assigned_doctor": "Dr. Srinivas"},
+    {"name": "Karthik Varma", "age": 44, "gender": "Male", "phone_number": "9000033333", "address": "Mahbubnagar, Telangana", "status": "critical", "assigned_doctor": "Dr. Geetha"},
+    {"name": "Swathi Reddy", "age": 31, "gender": "Female", "phone_number": "9000044444", "address": "Kadapa, Andhra Pradesh", "status": "recovered", "assigned_doctor": "Dr. Ramesh"},
+    {"name": "Manoj Teja", "age": 52, "gender": "Male", "phone_number": "9000055555", "address": "Sangareddy, Telangana", "status": "active", "assigned_doctor": "Dr. Kavitha"},
+    {"name": "Divya Lakshmi", "age": 35, "gender": "Female", "phone_number": "9000066666", "address": "Ongole, Andhra Pradesh", "status": "recovering", "assigned_doctor": "Dr. Srinivas"},
+    {"name": "Ajay Kumar", "age": 47, "gender": "Male", "phone_number": "9000077777", "address": "Medak, Telangana", "status": "critical", "assigned_doctor": "Dr. Geetha"},
+    {"name": "Sushmitha Rani", "age": 30, "gender": "Female", "phone_number": "9000088888", "address": "Vizianagaram, Andhra Pradesh", "status": "active", "assigned_doctor": "Dr. Ramesh"},
+    {"name": "Chaitanya Rao", "age": 28, "gender": "Male", "phone_number": "9000099999", "address": "Anantapur, Andhra Pradesh", "status": "recovered", "assigned_doctor": "Dr. Kavitha"},
+    {"name": "Meghana Priya", "age": 42, "gender": "Female", "phone_number": "9111100000", "address": "Jagtial, Telangana", "status": "active", "assigned_doctor": "Dr. Srinivas"},
+
+    {"name": "Rohit Krishna", "age": 33, "gender": "Male", "phone_number": "9222200000", "address": "Srikakulam, Andhra Pradesh", "status": "recovering", "assigned_doctor": "Dr. Geetha"},
+    {"name": "Keerthi Reddy", "age": 29, "gender": "Female", "phone_number": "9333300000", "address": "Nalgonda, Telangana", "status": "critical", "assigned_doctor": "Dr. Ramesh"},
+    {"name": "Pavan Kumar", "age": 46, "gender": "Male", "phone_number": "9444400000", "address": "Tenali, Andhra Pradesh", "status": "active", "assigned_doctor": "Dr. Kavitha"},
+    {"name": "Sandhya Devi", "age": 37, "gender": "Female", "phone_number": "9555500000", "address": "Bhimavaram, Andhra Pradesh", "status": "recovered", "assigned_doctor": "Dr. Srinivas"},
+    {"name": "Tarun Teja", "age": 40, "gender": "Male", "phone_number": "9666600000", "address": "Miryalaguda, Telangana", "status": "active", "assigned_doctor": "Dr. Geetha"},
+    {"name": "Navya Sri", "age": 25, "gender": "Female", "phone_number": "9777700000", "address": "Chittoor, Andhra Pradesh", "status": "recovering", "assigned_doctor": "Dr. Ramesh"},
+    {"name": "Vamsi Krishna", "age": 43, "gender": "Male", "phone_number": "9888800000", "address": "Mancherial, Telangana", "status": "critical", "assigned_doctor": "Dr. Kavitha"},
+    {"name": "Anjali Rani", "age": 34, "gender": "Female", "phone_number": "9999900000", "address": "Tadepalligudem, Andhra Pradesh", "status": "active", "assigned_doctor": "Dr. Srinivas"},
+    {"name": "Sandeep Reddy", "age": 49, "gender": "Male", "phone_number": "9000001111", "address": "Kothagudem, Telangana", "status": "recovered", "assigned_doctor": "Dr. Geetha"},
+    {"name": "Harshini Devi", "age": 28, "gender": "Female", "phone_number": "9000002222", "address": "Gudivada, Andhra Pradesh", "status": "active", "assigned_doctor": "Dr. Ramesh"},
+
+    {"name": "Lokesh Kumar", "age": 36, "gender": "Male", "phone_number": "9000003333", "address": "Nagarkurnool, Telangana", "status": "recovering", "assigned_doctor": "Dr. Kavitha"},
+    {"name": "Bhavana Sri", "age": 31, "gender": "Female", "phone_number": "9000004444", "address": "Proddatur, Andhra Pradesh", "status": "critical", "assigned_doctor": "Dr. Srinivas"},
+    {"name": "Rakesh Teja", "age": 44, "gender": "Male", "phone_number": "9000005555", "address": "Siddipet, Telangana", "status": "active", "assigned_doctor": "Dr. Geetha"},
+    {"name": "Tejaswini Rani", "age": 27, "gender": "Female", "phone_number": "9000006666", "address": "Madanapalle, Andhra Pradesh", "status": "recovered", "assigned_doctor": "Dr. Ramesh"},
+    {"name": "Ganesh Reddy", "age": 53, "gender": "Male", "phone_number": "9000007777", "address": "Kamareddy, Telangana", "status": "active", "assigned_doctor": "Dr. Kavitha"},
+    {"name": "Sowmya Devi", "age": 35, "gender": "Female", "phone_number": "9000008888", "address": "Palakollu, Andhra Pradesh", "status": "recovering", "assigned_doctor": "Dr. Srinivas"},
+    {"name": "Mahesh Babu", "age": 41, "gender": "Male", "phone_number": "9000009999", "address": "Wanaparthy, Telangana", "status": "critical", "assigned_doctor": "Dr. Geetha"},
+    {"name": "Lavanya Priya", "age": 30, "gender": "Female", "phone_number": "9111111111", "address": "Machilipatnam, Andhra Pradesh", "status": "active", "assigned_doctor": "Dr. Ramesh"},
+    {"name": "Srinivas Rao", "age": 48, "gender": "Male", "phone_number": "9222222222", "address": "Yellandu, Telangana", "status": "recovered", "assigned_doctor": "Dr. Kavitha"},
+    {"name": "Kavitha Rani", "age": 33, "gender": "Female", "phone_number": "9333333333", "address": "Repalle, Andhra Pradesh", "status": "active", "assigned_doctor": "Dr. Srinivas"}
+
+]
